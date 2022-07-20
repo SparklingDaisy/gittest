@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+ <a href="http://google.com"><img src="Lian.jpg"></a>
+ <hr>
+ <img src="Lian.jpg" usemap="#imap">
+ <map name="imap"> <!-- 아이맵이라는 셀로판지 생성 --> 
+ 	<!-- 기본형식 -->
+	<area shape="rect" coords="40,46,86,92" href="http://google.com" target="_blank"> 
+	<area shape="circle" coords="105,65,20" href="http://daum.net" target="_blank"> 
+	<area shape="poly" coords="135,50,170,47,171,89,142,89" href="http://naver.com" target="_blank">
+	</map>
+ </body>
+</html>
+<!-- 
+shape의 종류 rect(Rectangle), cir(circle), pol(polygon)
+rect은 시작좌표, 끝좌표 입력
+cir은 중심점의 좌표와 반지름값 입력
+poly = 각 끝 부분의 좌표를 이어서 입력하여 일종의 형태로 범위를 지정해줌
+coords = 좌표
+-->

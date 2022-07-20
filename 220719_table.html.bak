@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+ 
+  <table border="1" width="300" height="300" cellspacing="0" cellpadding="20"
+  align="center" bgcolor="pink" background="Lian.jpg">
+  	<tr align="right" valign="top" bgcolor="pink"><!--행-->
+		<td>data01</td>
+		<td>data02</td>
+		<td>data03</td>
+	</tr>
+	<tr><!--한 행이 끝나고 다음행 생성-->
+		<td>data01</td>
+		<td>data02</td>
+		<td>data03</td>
+		<td>data04</td>	
+		<!-- 제일 많은 행을 가지고 있는 열을 기준으로 행이 생성됨 -->
+	</tr>
+  </table>
+  <ht>
+  <table border="1" width="300" height="300" cellspacing="0" cellpacing="20"
+  align="center" bgcolor="pink" background="Lian.jpg">
+  	<tr align="right" valign="top" bgcolor="pink"><!--행-->
+		<td colspan="2">data01</td> 
+		<!-- 열 병합과정 
+		그냥 그대로 추가 하는 방식으로 처리되니
+		병합되는 것 처럼 보이려면 뒤에 행을 지워주어야함-->
+		<td>data02</td>
+		<td rowspan="2">data03</td>
+	</tr>
+	<tr><!--한 행이 끝나고 다음행 생성-->
+		<td>data04</td>
+		<td>data05</td>
+		<td>data06</td>
+		<td>data07</td>	
+		<!-- 제일 많은 행을 가지고 있는 열을 기준으로 행이 생성됨 -->
+	</tr>
+  </table>
+
+ </body>
+</html>
+<!--
+
+항상 행부터 만들고 열 구축
+tr 1행
+td 1열 - td는 데이터가 있어야지만 활성화가 되는 태그, 공백이라도 집어넣어야 함
+
+제일 많은 행을 가지고 있는 열을 기준으로 행이 생성됨
+
+테이블 태그 속성
+1) width/height="픽셀 또는 백분률"
+2) align=left|center|right
+3) cellspacing="픽셀"
+4) cellpacing="픽셀"
+5) border="픽셀"
+6) bordercolor="색상" >> 비표준
+7) bgcolor="색상"
+8) background="이미지파일"
+
+tr 태그의 속성
+1)height="픽셀 또는 백분률"
+2)bgcolor/background는 table태그의 속성과 동일
+3)align=left|center|right
+4)valign=top|middle|bottom
+
+th 태그의 속성
+
+1)height="픽셀 또는 백분률"
+2)bgcolor/background는 table태그의 속성과 동일
+3)align=left|center|right tr태그 속성과 동일
+4)colspan=숫자
+5)rowspan=숫자
+
+
+padding = 컨텐츠와 태그의 거리
+margin = 태그와 태그사이 거리
+spacing = 열과 열 사이의 거리
+
+
+-->

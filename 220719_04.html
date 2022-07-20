@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+ <h1>수업 과정 수강료표</h1>
+ <table border="1" cellspacing="0" width="400"> <!-- summary는 비표준이 되어 사용안함 -->
+    <caption>수업 과정 수강료표</caption>
+	<thead> <!-- 시각적인 효과는 없지만 의미를 전달하는 태그, semantic 태그-->
+		<tr>
+			<th>강사명</th>
+			<th>과목</th>  <!-- th: 가운데 보여주고 두껍게 표현하는것-->
+			<th>강의실</th>
+			<th>수강료</th>
+		</tr>
+	</thead>
+	<tfoot> <!-- semantic tag -->
+		<tr>
+			<td colspan="4">상기내용은 변경될 수 있습니다.</td>
+		</tr>
+	</tfoot>	
+	<tbody> <!-- semantic tag-->
+		<tr>
+			<td rowspan="2">손오공</td>
+			<td>java</td>
+			<td>404</td>
+			<td>700,000</td>
+		</tr>
+		<tr>		
+			<td>JSP</td>
+			<td>403</td>
+			<td rowspan="2">850,000</td>
+		</tr>
+		<tr>
+			<td>베지터</td>
+			<td>oracle</td>
+			<td>402</td>		
+		</tr>
+	</tbody>
+  </table>
+ </body>
+</html>
+
+<!-- 표준 권고-정제된 정보를 표헌할 떄는 semantic tag를 이용하여 표현하라 -->

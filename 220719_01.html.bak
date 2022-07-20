@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+
+ <!-- 링크태그
+ 형식
+ <a href="url주소">이벤트소스(클릭대상자)</a>
+
+ 1.target="값"
+ 1)_self 2)_blank 3)_parent 4)_top
+
+ 2.name="이름"
+ 3.href="#앵커"
+
+ -->
+
+ <ul>
+ 	<li><a href="http://naver.com" target="_blank">네이버</a></li>
+	<li><a href="http://daum.net">다음</li>
+	<li><a href="http://nate.com">네이트</li>
+ </ul>
+ <hr>
+ <a href="ojdbc6.jar">오라클 드라이버 다운로드<a/>
+ <hr>
+ <ul>
+	<li><a href="#tiktok">틱탁</li>
+	<li><a href="#moai">모아이</li>
+	<li><a href="#bermuda">버뮤다</li>
+ </ul>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <dl>
+ <dt><a name="tiktok">틱탁</dt>
+ <dd>약속된 시간, 컨트롤 된 뇌파</dd>
+ </dl>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <dl>
+ <dt><a name="moai">모아이</dt>
+ <dd>네온 사인 곁을 뒤로 등진건, 내가 벗어두고 온 날의 조각 같았어</dd>
+ </dl>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <dl>
+ <dt><a name="bermuda">버뮤다</dt>
+ <dd>갓 빌린 소설처럼~~, 짖궃은 질문처럼~~</dd>
+ </dl>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>vv<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ </body>
+</html>

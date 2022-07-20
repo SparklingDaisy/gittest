@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+ <table border="0" width="500" height="0" cellspacing="0" cellpadding="0"
+  bgcolor="pink">
+  	<tr align="center" valign="top" bgcolor="pink"><!--행-->
+		<td><font size="5"><b>회원 가입은 무료예요!!</b></font></td> 
+	</tr>
+  </table>
+  <table>
+  	<tr>
+		<td bgcolor="yellow" width="110">회원 ID</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="userid" size="10" maxlength="8"> 영문/숫자 3-8, 한글 2-4자</td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">비밀번호</td>
+		<td bgcolor="#66ffff" width="382"><input type="password" name="pwd" size="10" maxlength="9"> 영문/숫자 조합으로 4-9자</td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">비밀번호 확인</td>
+		<td bgcolor="#66ffff" width="382"><input type="password" name="repwd" size="10" maxlength="9"></td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">성명</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="username" size="10" maxlength="9"></td>
+	</tr>
+    <tr>
+		<td bgcolor="yellow" width="110">성별</td>
+		<td bgcolor="#66ffff" width="382">
+		<input type="radio" name="sex" value="남자" checked>남
+		<input type="radio" name="sex" value="여자">여</td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">주민등록번호</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="userNum" size="3" maxlength="6">-<input type="text" name="userNum" size="3" maxlength="7"> 예)770815-7223454</td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">생년월일</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="yyyy" size="1" maxlength="4">년
+		<input type="text" name="mm" size="1" maxlength="2">월
+		<input type="text" name="dd" size="1" maxlength="2">일
+		<input type="radio" name="lift" value="양력" checked>양력
+		<input type="radio" name="lunar" value="음력">음력</td>
+	</tr>
+		<tr>
+		<td bgcolor="yellow" width="110">E-mail</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="email" size="49" maxlength="30"></td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">우편번호</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="addNum" size="1" maxlength="3">-<input type="text" name="addNum" size="1" maxlength="3"></td>
+	</tr>
+	</tr>
+		<tr>
+		<td bgcolor="yellow" width="110">주소</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="address" size="49" maxlength="30"></td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">전화번호</td>
+		<td bgcolor="#66ffff" width="382"><input type="text" name="tel" size="1" maxlength="4">-<input type="text" name="tel" size="1" maxlength="4">-<input type="text" name="tel" size="1" maxlength="4"></td>
+	</tr>
+	<tr>
+		<td bgcolor="yellow" width="110">H.P번호</td>
+		<td bgcolor="#66ffff" width="382">
+		<select name="phoneNum" size="1">
+			<option value="010">010</option>
+			<option value="011">011</option>
+			<option value="017">017</option>
+			<option value="019">019</option>
+		</select>
+		-<input type="text" name="phoneNum" size="1" maxlength="4">
+		-<input type="text" name="phoneNum" size="1" maxlength="4"></td>
+	</tr>
+	 <table border="0" width="500" height="0" cellspacing="0" cellpacing="20"
+  bgcolor="pink">
+  	<tr align="center" valign="top" bgcolor="#00cccc"><!--행-->
+		<td><input type="submit" value="전송">
+		<input type="reset" value="재입력"></td>
+	</tr>
+  </table>
+ </body>
+</html>

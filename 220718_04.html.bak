@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+
+ <!-- 목차표현 태그 -->
+ <body>
+ <ul type="square"> <!-- ul = 순서없는 목록 표현 -->
+  <li>고길동</li>
+  <li>둘리</li>
+  <li>또치</li>
+  <li>도우너</li>
+ </ul>
+
+ <hr>
+ <ol type="I"> <!-- ol = 순서있는 목록 표현 -->
+  <li>고길동</li>
+  <li>둘리</li>
+  <li>또치</li>
+  <li>도우너</li>
+  </ol>
+
+  <hr>
+  <dl><!--dictionaly list-->
+   <dt>고길동</dt>
+   <dd>고길동은 재평가되어야 마땅한 위인이다.</dd>
+   <dt>아기공룡둘리</dt>
+   <dd>아기공룡둘리는 엄마가 없어서 인성이 파탄났다.</dd>
+   <dt>도우너</dt>
+   <dd>둘리 친구 빨간코 양아치, 정말 유유상종이 아닐 수 없다.</dd>
+
+ <!-- -->
+ </body>
+</html>

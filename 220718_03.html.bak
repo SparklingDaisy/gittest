@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- 태그를 알아보장~~ -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <h1>이것은 제목입니다.</h1>
+  
+  <!-- 컨텐츠의 영역, 단락을 잡기 위해 사용-->
+  <p>컨텐츠의 영역, 단락을 표현할 때 사용하는 태그~~ </p>
+  <p>바이러스 끝없이 맞서는 백신<br>
+  온 세상 지천에 널린</p> 
+  <p>어덜트갤러리 감춘 칼날이<br>
+  어린 우리아이 머리속을 홀린</p>
+
+  <!-- p태그는 단락사이에 공백이 생기므로 div를 사용함 -->
+  <div>div로 표현되는 문장</div><!-- 블록태그 -->
+  <div>div로 <mark>표현되는</mark> 문장</div>
+  <span>span태그로 표현되는 문장</span><!-- 인라인태그 -->
+  <span>span태그로 표현되는 문장</span>
+  
+  <pre>
+혼탁한 바람에 더 이상 난 볼 수 없네
+내가 누군지이이       여긴 어딘지~~
+  </pre>
+  <br>
+  <b>두껍게</b><br>
+  <strong>두껍게</strong><br>
+  <i>기울임</i><br>
+  <em>기울임</em><br>
+  
+ </body>
+</html>
