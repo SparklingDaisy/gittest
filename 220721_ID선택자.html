@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  /* 아이디 선택자 */
+
+#layer1{
+	font-size:15px;
+	color:blue;
+	font-family:'궁서';
+	font-weight:bold;
+	position:absolute;
+		/* 본 페이지에서 독립화 //absolute : 순수한, 절대의	*/
+	left:200px;
+	top:100px;
+	z-index:5; /* 레이어 앞뒤 순서 지정 //사용자에 가까우면 양수, 멀면 음수 */
+}
+
+  </style>
+ </head>
+ <body>
+  <div id="layer1">자바 웹개발자 과정</div>
+  <div style="font-size:15px; color:red; font-family:'궁서'; font-weight:bold; position:absolute; left:202px; top:102px;">자바 웹개발자 과정</div>
+ </body>
+</html>

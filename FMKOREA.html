@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  table{
+	border-spacing:0px;
+  }
+  .firTable{
+	border-top:3px solid black;
+	vertical-align:center;
+	width:70%;
+
+  }
+  .secTable{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+  }
+
+  .table{
+	background-color:#f0f0f0;
+	border-bottom:1px solid #cecece;
+	width:150px;
+  }
+  .td{
+	border-bottom:1px solid #cecece;
+  }
+  .tdBlue{
+	color:blue;
+  }
+  
+  </style>
+
+ </head>
+ <body>
+ <table class="firTable">
+	<tr>
+	<td align="center">기본 정보</td>
+	</tr>
+  </table>
+  <table class="secTable">
+	<tr>
+		<td class="table"> 아이디</td>
+		<td class="td"><input type="text"><br>
+		사용자 ID는 3~20자 사이의 영문+숫자로 이루어져야 하며 영문으로 시작되어야 합니다.<br>
+		<span class="tdBlue">아이디 2개 이상 사용할 경우 모두 사용 중지됩니다.</span></td>
+	</tr>
+	<tr>
+		<td class="table"> 비밀번호</td>
+		<td><input type="text"><br>
+		비밀번호는 6~20자로 되어야 합니다.</td>
+	</tr>
+	<tr>
+		<td class="table">비밀번호 확인</td>
+		<td><input type="text"></td>
+	</tr>
+	<tr>
+		<td class="table">닉네임</td>
+		<td><input type="text"><br>
+		닉네임은 2~8자 이내여야 합니다.<br>
+		악성/타유저 유사 닉네임 사용할 경우 영구 차단 될 수 있습니다.<br>
+		정치 관련, 특정 사이트 언급, 반사회적, 성적, 욕설 닉네임은 금지합니다.<br>
+		한달에 한번 닉네임 변경 가능합니다.</td>
+	</tr>
+	<tr>
+		<td class="table">이메일 주소</td>
+		<td><input type="text"><br>
+		<span class="tdBlue">naver.com 메일 주소로만 가입 가능합니다.</span><br>
+		메일주소는 메일인증 후 비밀번호 변경이나 찾기 등에 사용됩니다.<br>
+		인증 메일이 보이지 않으면 스팸보관함을 열어보시길 바랍니다.</td>
+	</tr>
+	<tr>
+		<td class="table">이메일 주소 확인</td>
+		<td>메일주소는 메일인증 후 비밀번호 변경이나 찾기 등에 사용됩니다.<br>
+		인증 메일이 보이지 않으면 스팸보관함을 열어보시길 바랍니다.</td>
+	</tr>
+	<tr>
+		<td class="table">메일링 가입</td>
+		<td><input type="checkbox" checked>
+		메일링 가입이 체크되지 않으면 단체메일 발송 시 메일을 받지 않습니다.
+	</tr>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,34 @@
+<!--
+중국집 주문 프로그램
+[짜장면] [짬뽕] [탕수육] [팔보채]
+
+[주문내역]
+메뉴:----
+가격:----
+주문감사합니다.
+[확인]
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+
+function show(name,price){
+	window.alert('메뉴:'+name+'\n가격:'+price+'\n주문 감사합니다.');
+}
+
+  </script>
+ </head>
+ <body>
+  <font align='center'>중국집 주문 프로그램</font><br><br>
+
+  <input type="button" value="짜장면" onclick="show('짜장면','5,000');">
+  <input type="button" value="짬뽕" onclick="show('짬뽕','6,000');">
+  <input type="button" value="탕수육" onclick="show('탕수육','15,000');">
+  <input type="button" value="팔보채" onclick="show('팔보채','30,000');">
+
+ </body>
+</html>

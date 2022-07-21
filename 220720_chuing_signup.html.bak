@@ -14,7 +14,7 @@
   }
 
   .firstTable{
-		margin:0px auto;
+		
 		background-color:red;
 		width:100%;
   }
@@ -30,7 +30,7 @@
   }
 
   .table{
-	margin:0px auto;
+	text-align:"right"
   }
 
 
@@ -104,7 +104,7 @@
 		</tr>
 	<table class="table">
 <hr>
-	<table>
+	<table class="table">
 		<tr>
 			<td><B>인증코드</b></td>
 			<td><input type="text">(메일로 전송된 코드를 입력하세요.)	</td>

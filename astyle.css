@@ -1,0 +1,15 @@
+  a:link{
+	color:black;
+	font-size:20px;
+	text-decoration:none;  
+  }
+  a:visited{
+	color:black;
+	font-size:20px;
+	text-decoration:none;  
+  }
+  a:hover{
+	color:yellow;
+	text-decoration:underline;
+	font-size:22px;
+  }
