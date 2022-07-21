@@ -6,8 +6,8 @@
   <style>
   	div{
 		color:blue;
-		font-family:'궁서';
-
+		font-family:'궁서'; (웹표준 권고사항 스크립트언어에서는 싱글쿼테이션 사용)
+		font-size:25px;
 	}
   </style>
  </head>
