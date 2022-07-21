@@ -22,7 +22,6 @@
   hr{
 	margin:0px auto;
 	width:100%;
-
   }
 
   td{
@@ -31,6 +30,7 @@
 
   .table{
 	margin:0px auto;
+	border-bottom:5px solid gray;
   }
 
 
@@ -62,29 +62,33 @@
 	</table>
 	<table class="firstTable">
 		<tr>
-			<td><font color="white">[필독]가입시유의사항[클릭]</font></td>
+			<td>[필독]가입시유의사항[클릭]</td>
 		</tr>
 	</table>
-	<table class="table">
+	<table>
 		<tr>
-			<td rowspan="2"><b>ID</b></td>
+			<td rowspan="2" align="right"><b>ID</b></td>
 			<td><input type="text">
 				<input type="button" value="Check ID"></td>
 		</tr>
 		<tr>
 			<td>(영문, 숫자로만 아이디를 작성하세요)</td>
 		</tr>
-	</table>
-<hr>
-	<table class="table">
+		<hr>
+	
 		<tr>
-			<td><b>암호</b></td>
-			<td><input type="password"></td>
-			<td>확인:<input type="password"></td>
+			<td align="right"><b>암호</b></td>
+			<td><input type="password"> 확인:<input type="password"></td>
 		</tr>
-	</table>
-<hr>
-	<table class="table">
+	
+
+		<tr>
+			<td align="right"><b>닉네임</b></td>
+			<td><input type="text">
+				<input type="button" value="Check NICK"></td>
+		</tr>
+
+	
 		<tr>
 			<td rowspan="4"><b>E=mail</b></td>
 			<td>
@@ -102,16 +106,15 @@
 		<tr>
 			<td>(이메일을 잘못적은 경우 새로고침 후 다시 시도하세요.)</td>
 		</tr>
-	<table class="table">
-<hr>
-	<table>
+	
+
+	
 		<tr>
 			<td><B>인증코드</b></td>
 			<td><input type="text">(메일로 전송된 코드를 입력하세요.)	</td>
 		</tr>
-	</table>
-	<hr>
-	<table class="table">
+	
+	
 		<tr>
 			<td><b>정보공개</b></td>
 			<td><input type="checkbox" checked>정보 공개</td>
@@ -128,4 +131,3 @@
   
  </body>
 </html>
-
